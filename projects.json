@@ -46,7 +46,8 @@
       "issuer": "Amazon Web Services (AWS)",
       "category": "AI & Cloud",
       "file_path": "sertifikat/AWS%20Certified%20AI%20Practitioner%20certificate.pdf",
-      "file_type": "pdf"
+      "file_type": "pdf",
+      "image_path": "sertifikat/AWS%20Certified%20AI%20Practitioner%20certificate.png"
     },
     {
       "id": "google-ai-specialization",
@@ -54,7 +55,8 @@
       "issuer": "Coursera / Google",
       "category": "AI & Data",
       "file_path": "sertifikat/Coursera%20Google%20Google%20AI%20Specialization.pdf",
-      "file_type": "pdf"
+      "file_type": "pdf",
+      "image_path": "sertifikat/Coursera%20Google%20Google%20AI%20Specialization.png"
     },
     {
       "id": "machine-learning-cert",
@@ -62,7 +64,8 @@
       "issuer": "Datacamp",
       "category": "Machine Learning",
       "file_path": "sertifikat/machine%20learning%20certificate%20.pdf",
-      "file_type": "pdf"
+      "file_type": "pdf",
+      "image_path": "sertifikat/machine%20learning%20certificate.png"
     }
   ],
   "projects": [
