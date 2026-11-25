@@ -1,0 +1,227 @@
+{
+  "meta": {
+    "last_updated": "2026-11-25",
+    "base_url": "https://raw.githubusercontent.com/LrRyPa/portofolio-assets/main/images/"
+  },
+  "profile": {
+    "name": "Larry Polin Anugrah",
+    "role": "Data Analyst · Data Scientist · BI Developer",
+    "location": "Samarinda, Indonesia",
+    "education": "S1 Sistem Informasi — Universitas Mulawarman (GPA 3.97/4.00)",
+    "github": "https://github.com/LrRyPa",
+    "avatars": {
+      "primary": "profile/pdh.png",
+      "secondary": "profile/cloud.png"
+    }
+  },
+  "kpi_metrics": [
+    {
+      "id": "datasets_analyzed",
+      "label": "Datasets Analyzed",
+      "value": 15,
+      "suffix": "+"
+    },
+    {
+      "id": "rows_processed",
+      "label": "Records Processed",
+      "value": 450,
+      "suffix": "K+"
+    },
+    {
+      "id": "bi_dashboards",
+      "label": "BI & Analytics Apps",
+      "value": 5,
+      "suffix": ""
+    },
+    {
+      "id": "certifications",
+      "label": "Verified Credentials",
+      "value": 3,
+      "suffix": ""
+    }
+  ],
+  "certifications": [
+    {
+      "id": "aws-ai-practitioner",
+      "title": "AWS Certified AI Practitioner",
+      "issuer": "Amazon Web Services (AWS)",
+      "category": "AI & Cloud",
+      "file_path": "sertifikat/AWS%20Certified%20AI%20Practitioner%20certificate.pdf",
+      "file_type": "pdf"
+    },
+    {
+      "id": "google-ai-specialization",
+      "title": "Google AI Specialization",
+      "issuer": "Coursera / Google",
+      "category": "AI & Data",
+      "file_path": "sertifikat/Coursera%20Google%20Google%20AI%20Specialization.pdf",
+      "file_type": "pdf"
+    },
+    {
+      "id": "machine-learning-cert",
+      "title": "Machine Learning Certification",
+      "issuer": "Dicoding / Asah 2026",
+      "category": "Machine Learning",
+      "file_path": "sertifikat/machine%20learning%20certificate%20.pdf",
+      "file_type": "pdf"
+    }
+  ],
+  "projects": [
+    {
+      "id": "air-quality-eda-streamlit",
+      "title": "China Urban Air Quality & Seasonal PM2.5 Analysis",
+      "category": "Data Analysis",
+      "featured": true,
+      "date": "2026-11",
+      "summary": "Exploratory data analysis across 12 air-quality monitoring stations (420,000+ hourly records) to uncover seasonal PM2.5 pollution patterns and meteorological correlations, deployed as an interactive Streamlit dashboard.",
+      "business_problem": "High seasonal variance in urban particulate matter required pinpointing peak pollution windows and weather triggers for actionable environmental advisories.",
+      "key_metrics": [
+        { "label": "Records Processed", "value": "420,768 rows" },
+        { "label": "Stations Analyzed", "value": "12 Sites" },
+        { "label": "Seasonal Drop", "value": "-34% PM2.5" }
+      ],
+      "tech_stack": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit"],
+      "thumbnail": "",
+      "links": {
+        "github": "https://github.com/LrRyPa",
+        "live_demo": ""
+      },
+      "chart_data": {
+        "title": "Average Monthly PM2.5 Concentration (µg/m³)",
+        "x_axis": "month",
+        "y_axis": "pm25",
+        "series": [
+          { "month": "Jan", "pm25": 94 },
+          { "month": "Mar", "pm25": 78 },
+          { "month": "May", "pm25": 58 },
+          { "month": "Jul", "pm25": 49 },
+          { "month": "Sep", "pm25": 54 },
+          { "month": "Nov", "pm25": 88 }
+        ]
+      }
+    },
+    {
+      "id": "toysight-bi-warehouse",
+      "title": "ToySight Executive BI & Galaxy Schema Warehouse",
+      "category": "Business Intelligence",
+      "featured": true,
+      "date": "2026-10",
+      "summary": "End-to-end ETL pipeline and multidimensional Galaxy Schema data warehouse powering role-based executive KPI dashboards for retail sales and inventory operations.",
+      "business_problem": "Fragmented operational transaction tables prevented management from tracking cross-branch gross margins, stock turnover, and category performance in real time.",
+      "key_metrics": [
+        { "label": "Architecture", "value": "Galaxy Schema" },
+        { "label": "Access Control", "value": "Role-Based CRUD" },
+        { "label": "Data Pipeline", "value": "Automated ETL" }
+      ],
+      "tech_stack": ["SQL", "SQLite", "PHP", "ETL Pipeline", "Data Warehousing"],
+      "thumbnail": "",
+      "links": {
+        "github": "https://github.com/LrRyPa",
+        "live_demo": ""
+      },
+      "chart_data": {
+        "title": "Quarterly Gross Margin Performance (%)",
+        "x_axis": "quarter",
+        "y_axis": "margin",
+        "series": [
+          { "quarter": "Q1", "margin": 24.5 },
+          { "quarter": "Q2", "margin": 27.1 },
+          { "quarter": "Q3", "margin": 26.8 },
+          { "quarter": "Q4", "margin": 31.4 }
+        ]
+      }
+    },
+    {
+      "id": "ml-clustering-segmentation",
+      "title": "Customer & Behavioral Unsupervised Clustering Pipeline",
+      "category": "Data Science",
+      "featured": true,
+      "date": "2026-10",
+      "summary": "End-to-end unsupervised machine learning workflow applying feature scaling, dimensionality reduction (PCA), and K-Means clustering with Silhouette Score optimization.",
+      "business_problem": "Uniform marketing campaigns yielded low conversion due to unsegmented customer purchasing behaviors across diverse product tiers.",
+      "key_metrics": [
+        { "label": "Evaluation", "value": "4-Star Skilled" },
+        { "label": "Algorithm", "value": "K-Means + PCA" },
+        { "label": "Cluster Validation", "value": "Silhouette Optimal" }
+      ],
+      "tech_stack": ["Python", "Scikit-Learn", "Pandas", "Matplotlib", "Seaborn"],
+      "thumbnail": "",
+      "links": {
+        "github": "https://github.com/LrRyPa",
+        "live_demo": ""
+      },
+      "chart_data": {
+        "title": "Silhouette Score by Cluster Count (K)",
+        "x_axis": "clusters",
+        "y_axis": "silhouette",
+        "series": [
+          { "clusters": "K=2", "silhouette": 0.48 },
+          { "clusters": "K=3", "silhouette": 0.62 },
+          { "clusters": "K=4", "silhouette": 0.71 },
+          { "clusters": "K=5", "silhouette": 0.59 }
+        ]
+      }
+    },
+    {
+      "id": "retail-sales-regression-bi",
+      "title": "Indonesian Retail Sales Forecasting & Looker Studio BI",
+      "category": "Data Science",
+      "featured": false,
+      "date": "2026-09",
+      "summary": "Comparative regression benchmark evaluating Linear Regression against Random Forest Regressor on Indonesian retail data, paired with interactive Looker Studio reporting.",
+      "business_problem": "Regional store leads lacked predictive revenue baselines to calibrate quarterly stock replenishment across fast- and slow-moving SKUs.",
+      "key_metrics": [
+        { "label": "Winning Model", "value": "Random Forest" },
+        { "label": "R² Accuracy", "value": "0.89" },
+        { "label": "BI Layer", "value": "Looker Studio" }
+      ],
+      "tech_stack": ["Python", "Scikit-Learn", "Orange Data Mining", "Looker Studio"],
+      "thumbnail": "",
+      "links": {
+        "github": "https://github.com/LrRyPa",
+        "live_demo": ""
+      },
+      "chart_data": {
+        "title": "Model Variance Explained (R² %)",
+        "x_axis": "model",
+        "y_axis": "r2_score",
+        "series": [
+          { "model": "Baseline", "r2_score": 45 },
+          { "model": "Linear Reg", "r2_score": 76 },
+          { "model": "Random Forest", "r2_score": 89 }
+        ]
+      }
+    },
+    {
+      "id": "netflix-90s-eda",
+      "title": "1990s Cinema Duration & Genre Distribution EDA",
+      "category": "Data Analysis",
+      "featured": false,
+      "date": "2026-10",
+      "summary": "Statistical filtering and distribution analysis on Netflix catalog metadata isolating 1990s theatrical releases to evaluate runtime trends and short-form action titles.",
+      "business_problem": "Content curation teams needed empirical runtime benchmarks for 1990s catalog acquisitions across action and drama genres.",
+      "key_metrics": [
+        { "label": "Decade Focus", "value": "1990–1999" },
+        { "label": "Modal Runtime", "value": "94 mins" },
+        { "label": "Analysis Tool", "value": "Python / NumPy" }
+      ],
+      "tech_stack": ["Python", "Pandas", "NumPy", "Matplotlib"],
+      "thumbnail": "",
+      "links": {
+        "github": "https://github.com/LrRyPa",
+        "live_demo": ""
+      },
+      "chart_data": {
+        "title": "1990s Movie Runtime Distribution (Minutes)",
+        "x_axis": "bracket",
+        "y_axis": "count",
+        "series": [
+          { "bracket": "<90m", "count": 34 },
+          { "bracket": "90-105m", "count": 78 },
+          { "bracket": "106-120m", "count": 46 },
+          { "bracket": ">120m", "count": 25 }
+        ]
+      }
+    }
+  ]
+}
