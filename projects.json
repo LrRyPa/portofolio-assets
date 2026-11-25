@@ -11,7 +11,6 @@
     "github": "https://github.com/LrRyPa",
     "avatars": {
       "primary": "profile/pdh.png",
-      "secondary": "profile/cloud.png"
     }
   },
   "kpi_metrics": [
@@ -76,29 +75,62 @@
       "summary": "Exploratory data analysis across 12 air-quality monitoring stations (420,000+ hourly records) to uncover seasonal PM2.5 pollution patterns and meteorological correlations, deployed as an interactive Streamlit dashboard.",
       "business_problem": "High seasonal variance in urban particulate matter required pinpointing peak pollution windows and weather triggers for actionable environmental advisories.",
       "key_metrics": [
-        { "label": "Records Processed", "value": "420,768 rows" },
-        { "label": "Stations Analyzed", "value": "12 Sites" },
-        { "label": "Seasonal Drop", "value": "-34% PM2.5" }
+        {
+          "label": "Records Processed",
+          "value": "420,768 rows"
+        },
+        {
+          "label": "Stations Analyzed",
+          "value": "12 Sites"
+        },
+        {
+          "label": "Seasonal Difference",
+          "value": "37.7% Higher PM2.5"
+        }
       ],
-      "tech_stack": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Streamlit"],
+      "tech_stack": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Matplotlib",
+        "Seaborn",
+        "Streamlit"
+      ],
       "thumbnail": "",
       "links": {
-        "github": "https://github.com/LrRyPa",
-        "live_demo": ""
+        "github": "https://github.com/LrRyPa/Proyek_Analisis_Data",
+        "live_demo": "https://proyek-kualitas-udara.streamlit.app"
       },
-      "chart_data": {
-        "title": "Average Monthly PM2.5 Concentration (µg/m³)",
-        "x_axis": "month",
-        "y_axis": "pm25",
-        "series": [
-          { "month": "Jan", "pm25": 94 },
-          { "month": "Mar", "pm25": 78 },
-          { "month": "May", "pm25": 58 },
-          { "month": "Jul", "pm25": 49 },
-          { "month": "Sep", "pm25": 54 },
-          { "month": "Nov", "pm25": 88 }
-        ]
-      }
+      "resources": {
+        "notebook_url": "https://github.com/LrRyPa/Proyek_Analisis_Data/blob/main/notebook.ipynb",
+        "visualization_data_url": "https://raw.githubusercontent.com/LrRyPa/Proyek_Analisis_Data/refs/heads/main/data/visualization_data.json"
+      },
+      "visualizations": [
+        {
+          "id": "seasonal_pm25",
+          "title": "Seasonal PM2.5 Comparison",
+          "type": "bar",
+          "data_key": "seasonal_pm25"
+        },
+        {
+          "id": "monthly_pm25",
+          "title": "Monthly PM2.5 Trend",
+          "type": "line",
+          "data_key": "monthly_pm25"
+        },
+        {
+          "id": "station_comparison",
+          "title": "PM2.5 Comparison Across Stations",
+          "type": "bar",
+          "data_key": "station_comparison"
+        },
+        {
+          "id": "wind_speed_analysis",
+          "title": "Wind Speed vs PM2.5",
+          "type": "bar",
+          "data_key": "wind_speed_analysis"
+        }
+      ]
     },
     {
       "id": "toysight-bi-warehouse",
