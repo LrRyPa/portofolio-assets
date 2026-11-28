@@ -66,6 +66,15 @@
       "file_path": "sertifikat/machine%20learning%20certificate%20.pdf",
       "file_type": "pdf",
       "image_path": "sertifikat/machine%20learning%20certificate.png"
+    },
+    {
+      "id": "google-prompting-essentials-specialization",
+      "title": "Google Prompting Essentials Specialization",
+      "issuer": "Coursera / Google",
+      "category": "Generative AI / Artificial Intelligence",
+      "file_path": "sertifikat/Coursera%20Google%20Google%20AI%20Specialization.pdf",
+      "file_type": "pdf",
+      "image_path": "sertifikat/Coursera%20Google%20Google%20AI%20Specialization.png"
     }
   ],
   "projects": [
